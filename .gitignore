@@ -1,0 +1,15 @@
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+*.pth
+*.pyc
+*.jar
+attn_pth/
+data/
+result/
+models/
+out
+gen
