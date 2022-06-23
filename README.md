@@ -1,13 +1,17 @@
 # A Self-Guided Framework for Radiology Report Generation
 
-This repository contains the code accompanying the paper "A Self-Guided Framework for Radiology Report Generation", accepted for publication at MICCAI 2022 (https://arxiv.org/).
+This repository contains the code accompanying the paper "A Self-Guided Framework for Radiology Report Generation", accepted for publication at MICCAI 2022 (https://arxiv.org/abs/2206.09378).
 
 ## Citation
 
 If you find this repo useful for your research, please consider citing our paper:
 
 ```latex
-@inproceedings{
+@article{2206.09378,
+Author = {Jun Li and Shibo Li and Ying Hu and Huiren Tao},
+Title = {A Self-Guided Framework for Radiology Report Generation},
+Year = {2022},
+Eprint = {arXiv:2206.09378},
 }
 
 ```
