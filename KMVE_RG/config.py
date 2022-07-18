@@ -3,7 +3,7 @@ from yacs.config import CfgNode as CN
 config = CN()
 config.image_dir = '../data/images'
 config.ann_path = '../data/my_annotation.json'
-config.models = '../models/model_best.pth'
+config.models = '../save_models/model_best.pth'
 
 # Data loader settings
 config.max_seq_length = 60
@@ -39,7 +39,7 @@ config.decoding_constraintt = 0  # whether decoding constraint.
 # Trainer settings
 config.n_gpu = 1  # the number of gpus to be used.
 config.epochs = 50  # the number of training epochs.
-config.save_dir = '../result/models/'  # the patch to save the models.
+config.save_dir = '../result/models/'  # the patch to save the save_models.
 config.record_dir = '../result/records/'  # the patch to save the results of experiments
 config.save_period = 1  # the saving period.
 config.monitor_mode = 'max'  # choices=['min', 'max'],help='whether to max or min the metric.

@@ -10,6 +10,6 @@
 attn_pth/
 data/
 result/
-models/
+save_models/
 out
 gen
